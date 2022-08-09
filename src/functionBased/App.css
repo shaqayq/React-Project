@@ -23,7 +23,7 @@ body {
 
 .inner {
   width: 100%;
-  padding: 8rem 10px 4rem;
+  padding: 0 10px 4rem;
 }
 
 .form-container {
@@ -65,6 +65,22 @@ body {
 }
 
 .active-link {
-  color: orangered;
+  color: #438fd6;
   text-decoration: underline;
+}
+
+.navBar {
+  margin-top: 45px;
+  box-shadow: 0 1px 6px 0 rgb(0 0 0 / 38%);
+}
+
+.navBar ul {
+  margin: 39px;
+  padding: 14px;
+}
+
+.navBar ul li{
+  display: inline;
+  padding: 53px;
+  font-size: 20px;
 }
